@@ -10,7 +10,7 @@ export function initSupplierForm() {
   if (!form) return;
 
   // Correo receptor configurado para pruebas (reemplazar con partnerships@momentiallc.com cuando esté listo):
-  const targetEmail = 'jotajota0607@gmail.com';
+  const targetEmail = 'partnerships@momentiallc.com';
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
