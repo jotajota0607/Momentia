@@ -1,0 +1,69 @@
+/**
+ * compliance.css - Sección de Cumplimiento, Credenciales y Compromiso Legal
+ */
+
+.compliance {
+  background: var(--fog);
+}
+
+.compliance .wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+@media (max-width: 800px) {
+  .compliance .wrap {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.cred-box {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 36px 32px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cred-box h3 {
+  font-size: 1.25rem;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--navy);
+}
+
+.cred-box h3::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--orange);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.cred-list li {
+  padding: 12px 0 12px 26px;
+  position: relative;
+  font-size: 0.94rem;
+  color: var(--slate);
+  border-bottom: 1px solid var(--line);
+}
+
+.cred-list li:last-child {
+  border-bottom: none;
+}
+
+.cred-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 19px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--orange);
+  background: transparent;
+}

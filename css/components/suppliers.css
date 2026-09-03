@@ -1,0 +1,79 @@
+/**
+ * suppliers.css - Sección Alianzas con Proveedores y Diagrama de Distribución
+ */
+
+.suppliers {
+  background: var(--fog);
+}
+
+.flow-diagram {
+  margin-bottom: 60px;
+  background: var(--white);
+  padding: 24px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+.flow-diagram svg {
+  width: 100%;
+  height: auto;
+  min-width: 600px;
+  max-height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Cuadrícula de Beneficios de Alianza */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+@media (max-width: 900px) {
+  .offer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.offer-card {
+  background: var(--white);
+  padding: 32px 24px;
+  border-radius: 6px;
+  border-top: 3px solid var(--navy);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-smooth), box-shadow var(--transition-smooth), border-color var(--transition-smooth);
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  border-top-color: var(--orange);
+}
+
+.offer-card .glyph {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 18px;
+  display: block;
+}
+
+.offer-card h4 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+  color: var(--navy);
+}
+
+.offer-card p {
+  font-size: 0.90rem;
+  color: var(--slate-light2);
+  line-height: 1.5;
+}

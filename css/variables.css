@@ -1,0 +1,49 @@
+/**
+ * variables.css - Design Tokens & Custom Properties de Momentia LLC
+ * Colores oficiales de marca y escalas de diseño
+ */
+
+:root {
+  /* Colores Oficiales de Marca */
+  --navy: #011E59;               /* Azul corporativo principal */
+  --navy-deep: #061738;          /* Azul marino profundo para fondos oscuros */
+  --navy-soft: #12306e;          /* Azul intermedio para gradientes */
+  --orange: #F26A0C;             /* Naranja oficial para llamadas a la acción y acentos */
+  --orange-dark: #d45906;        /* Naranja hover */
+  --orange-glow: rgba(242, 106, 12, 0.16);
+
+  /* Fondos y Neutros */
+  --white: #FFFFFF;              /* Fondo blanco limpio */
+  --fog: #EEF1F6;                /* Fondo suave para secciones secundarias */
+  --slate: #3B4658;              /* Color de texto principal para lectura */
+  --slate-light: #4c5a70;
+  --slate-light2: #778498;       /* Texto secundario / subtítulos */
+  --slate-muted: #8b96b8;        /* Texto para footer y notas */
+  --text-on-dark: #c9d3ea;       /* Texto claro sobre fondo azul marino */
+  --text-on-dark-dim: #aeb9d6;
+
+  /* Líneas y Separadores */
+  --line: rgba(1, 30, 89, 0.10);
+  --line-dark: rgba(255, 255, 255, 0.10);
+  --line-glass: rgba(255, 255, 255, 0.12);
+
+  /* Tipografía */
+  --font-family-heading: 'Archivo', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Layout y Dimensiones */
+  --wrap-max-width: 1180px;
+  --wrap-padding: 32px;
+  --wrap-padding-mobile: 22px;
+  --header-height: 78px;
+
+  /* Transiciones */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Sombras y Elevaciones */
+  --shadow-sm: 0 2px 14px rgba(1, 30, 89, 0.05);
+  --shadow-md: 0 14px 30px rgba(1, 30, 89, 0.10);
+  --shadow-lg: 0 24px 50px rgba(0, 0, 0, 0.35);
+  --shadow-header: 0 4px 20px rgba(1, 30, 89, 0.08);
+}

@@ -1,0 +1,50 @@
+/**
+ * footer.css - Pie de página institucional
+ */
+
+footer {
+  background: var(--navy-deep);
+  padding: 56px 0 30px;
+  color: var(--slate-muted);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--line-dark);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-top .brand-logo {
+  height: 42px;
+  width: auto;
+}
+
+.footer-tag {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.03em;
+  color: var(--text-on-dark);
+  text-align: right;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .footer-tag {
+    text-align: left;
+  }
+}
+
+.footer-bottom {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.82rem;
+  color: var(--slate-muted);
+}

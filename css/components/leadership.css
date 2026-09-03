@@ -1,0 +1,68 @@
+/**
+ * leadership.css - Sección de Equipo de Liderazgo y Cita Testimonial
+ */
+
+.leadership {
+  background: var(--white);
+}
+
+.leadership .wrap {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 56px;
+  align-items: center;
+}
+
+@media (max-width: 860px) {
+  .leadership .wrap {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+.leadership-photo img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: var(--shadow-md);
+  display: block;
+}
+
+.leadership-quote {
+  position: relative;
+}
+
+.leadership-quote .quote-mark {
+  font-family: var(--font-family-heading);
+  font-weight: 900;
+  font-size: 4.4rem;
+  color: var(--orange);
+  line-height: 1;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.leadership-quote p.quote-text {
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: var(--navy-deep);
+  font-weight: 600;
+  max-width: 640px;
+}
+
+.leadership-quote .quote-attr {
+  margin-top: 24px;
+}
+
+.leadership-quote .quote-attr strong {
+  display: block;
+  color: var(--navy-deep);
+  font-family: var(--font-family-heading);
+  font-size: 1rem;
+}
+
+.leadership-quote .quote-attr span {
+  color: var(--slate-light2);
+  font-size: 0.88rem;
+}

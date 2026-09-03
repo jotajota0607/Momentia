@@ -1,0 +1,341 @@
+/**
+ * contact.css - Sección de Contacto y Formulario de Admisión de Proveedores
+ */
+
+.contact {
+  background: linear-gradient(155deg, var(--navy-deep), var(--navy));
+  color: var(--white);
+}
+
+.contact-intro {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 56px;
+}
+
+.contact-intro .eyebrow {
+  justify-content: center;
+}
+
+.contact-intro h2 {
+  color: var(--white);
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.contact-intro p {
+  color: var(--text-on-dark);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Layout a 2 Columnas */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.3fr;
+  gap: 48px;
+  align-items: start;
+}
+
+@media (max-width: 960px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* Columna Izquierda: Tarjetas Institucionales */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--line-glass);
+  border-radius: 6px;
+  padding: 24px;
+  transition: transform var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(242, 106, 12, 0.5);
+}
+
+.contact-card .label {
+  font-family: var(--font-family-heading);
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact-card .val {
+  font-size: 1.02rem;
+  color: var(--white);
+  font-weight: 500;
+  display: block;
+  word-break: break-word;
+}
+
+.contact-card a.val:hover {
+  color: var(--orange);
+}
+
+.response-notice {
+  background: rgba(1, 30, 89, 0.4);
+  border-left: 3px solid var(--orange);
+  border-radius: 4px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: var(--text-on-dark);
+  line-height: 1.5;
+}
+
+.response-notice strong {
+  color: var(--white);
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-family-heading);
+}
+
+/* Columna Derecha: Tarjeta del Formulario de Proveedores */
+.supplier-form-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line-glass);
+  border-radius: 8px;
+  padding: 36px 32px;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .supplier-form-card {
+    padding: 24px 18px;
+  }
+}
+
+.supplier-form-header {
+  margin-bottom: 26px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.supplier-form-header h3 {
+  color: var(--white);
+  font-size: 1.35rem;
+  margin-bottom: 6px;
+}
+
+.supplier-form-header p {
+  color: var(--text-on-dark);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+/* Cuadrícula interna de campos */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+@media (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.form-group label {
+  font-family: var(--font-family-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-on-dark);
+  letter-spacing: 0.02em;
+}
+
+.form-group label .req {
+  color: var(--orange);
+  margin-left: 2px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: 4px;
+  padding: 12px 14px;
+  color: var(--white);
+  font-family: var(--font-family-body);
+  font-size: 0.94rem;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(201, 211, 234, 0.45);
+}
+
+.form-group select option {
+  background: var(--navy-deep);
+  color: var(--white);
+}
+
+.form-group textarea {
+  min-height: 110px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.form-group input:focus-visible,
+.form-group select:focus-visible,
+.form-group textarea:focus-visible {
+  border-color: var(--orange);
+  background: rgba(255, 255, 255, 0.12);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(242, 106, 12, 0.25);
+}
+
+/* Validación y Errores */
+.form-group .is-invalid {
+  border-color: #ff6b6b !important;
+  background: rgba(255, 107, 107, 0.08) !important;
+}
+
+.field-error {
+  font-size: 0.78rem;
+  color: #ff9b9b;
+  margin-top: 2px;
+  display: block;
+}
+
+.form-footer {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-footer .btn-primary {
+  width: 100%;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 16px 28px;
+}
+
+.form-security-note {
+  font-size: 0.78rem;
+  color: var(--slate-muted);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Panel de Confirmación / Feedback */
+#form-feedback {
+  margin-top: 24px;
+  background: rgba(1, 30, 89, 0.85);
+  border: 1px solid var(--orange);
+  border-radius: 6px;
+  padding: 24px 20px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+#form-feedback.hidden {
+  display: none;
+}
+
+.feedback-icon {
+  width: 44px;
+  height: 44px;
+  background: var(--orange);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+#form-feedback h4 {
+  color: var(--white);
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+#form-feedback p {
+  color: var(--text-on-dark);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.feedback-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.btn-sm {
+  padding: 10px 20px;
+  font-size: 0.86rem;
+}
+
+.feedback-note {
+  font-size: 0.84rem !important;
+  color: var(--text-on-dark-dim) !important;
+  margin-bottom: 12px !important;
+}
+
+.feedback-note a {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--text-on-dark);
+  font-size: 0.82rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.btn-link:hover {
+  color: var(--white);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

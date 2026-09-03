@@ -1,0 +1,28 @@
+/**
+ * main.css - Hoja de Estilos Maestra de Momentia LLC
+ * Orquesta la arquitectura modular en orden de cascada y especificidad:
+ * 1. Tokens y Variables
+ * 2. Reset y Reglas Base
+ * 3. Layout (Cabecera y Pie de Página)
+ * 4. Componentes Específicos
+ */
+
+/* 1. Design Tokens */
+@import url('variables.css');
+
+/* 2. Reset y Base */
+@import url('base.css');
+
+/* 3. Layout */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/* 4. Componentes */
+@import url('components/hero.css');
+@import url('components/intro.css');
+@import url('components/about.css');
+@import url('components/suppliers.css');
+@import url('components/why.css');
+@import url('components/leadership.css');
+@import url('components/compliance.css');
+@import url('components/contact.css');

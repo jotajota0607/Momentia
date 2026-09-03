@@ -1,0 +1,161 @@
+/**
+ * base.css - Reseteo moderno y estilos base globales
+ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  font-family: var(--font-family-body);
+  color: var(--slate);
+  background: var(--white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Compensar la altura del header fijo al navegar por anclas */
+section,
+[id] {
+  scroll-margin-top: calc(var(--header-height) + 16px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+  color: var(--navy);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Contenedor centralizado */
+.wrap {
+  max-width: var(--wrap-max-width);
+  margin: 0 auto;
+  padding: 0 var(--wrap-padding);
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    padding: 0 var(--wrap-padding-mobile);
+  }
+}
+
+/* Espaciado general de secciones */
+section {
+  padding: 104px 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 72px 0;
+  }
+}
+
+/* Eyebrow de sección */
+.eyebrow {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--orange);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: var(--orange);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Cabecera de sección reutilizable */
+.section-head {
+  max-width: 640px;
+  margin-bottom: 56px;
+}
+
+.section-head h2 {
+  font-size: 2.1rem;
+  line-height: 1.2;
+}
+
+.section-head p {
+  margin-top: 16px;
+  color: var(--slate-light2);
+  font-size: 1.02rem;
+}
+
+/* Divisor con firma visual Chevron de Momentia */
+.chevron-divider {
+  width: 100%;
+  height: 64px;
+  display: block;
+}
+
+.chevron-cut-bottom {
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 52% 100%, 0 78%);
+}
+
+/* Selección y accesibilidad de foco */
+::selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
