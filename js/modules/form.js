@@ -9,7 +9,7 @@ export function initSupplierForm() {
   const feedbackBox = document.getElementById('form-feedback');
   if (!form) return;
 
-  // Correo receptor configurado para pruebas (reemplazar con partnerships@momentiallc.com cuando esté listo):
+  // Correo corporativo oficial de Momentia LLC para recepción de alianzas:
   const targetEmail = 'partnerships@momentiallc.com';
 
   form.addEventListener('submit', (e) => {

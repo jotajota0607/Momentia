@@ -91,6 +91,16 @@
   }
 }
 
+@media (max-width: 600px) {
+  .values-row {
+    margin-top: 40px;
+  }
+
+  .value-cell {
+    padding: 24px 16px;
+  }
+}
+
 .value-cell {
   background: var(--white);
   padding: 34px 22px;

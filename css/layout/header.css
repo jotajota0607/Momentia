@@ -186,6 +186,8 @@ header.header-scrolled {
     visibility: hidden;
     transition: transform var(--transition-smooth), opacity var(--transition-smooth), visibility var(--transition-smooth);
     z-index: 999;
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: auto;
   }
 
   .nav-links.is-open {

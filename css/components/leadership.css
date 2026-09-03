@@ -20,6 +20,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .leadership-quote p.quote-text {
+    font-size: 1.10rem;
+  }
+}
+
 .leadership-photo img {
   width: 100%;
   max-width: 640px;

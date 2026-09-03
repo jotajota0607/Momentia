@@ -45,11 +45,12 @@
 }
 
 .hero h1 {
-  font-size: clamp(2.3rem, 4.5vw, 3.6rem);
+  font-size: clamp(1.85rem, 6vw, 3.6rem);
   font-weight: 800;
   color: var(--white);
-  line-height: 1.1;
+  line-height: 1.12;
   max-width: 640px;
+  overflow-wrap: break-word;
 }
 
 .hero h1 span {
@@ -69,6 +70,19 @@
   gap: 16px;
   margin-top: 38px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-ctas .btn-primary,
+  .hero-ctas .btn-ghost {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Botones principales de acción */

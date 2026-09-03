@@ -6,14 +6,34 @@
   <title>Momentia LLC | Built to Deliver</title>
   <meta name="description" content="Momentia LLC is a Texas-based retail and distribution company focused on connecting high-quality products with customers through professional sourcing, inventory management, and multi-channel retail operations.">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://jotajota0607.github.io/Momentia/">
 
-  <!-- Open Graph / Redes Sociales -->
+  <!-- Favicons Multirresolución y Anti-Caché -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+  <link rel="shortcut icon" href="favicon.ico?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon.png?v=2">
+
+  <!-- Open Graph / Redes Sociales (WhatsApp, Facebook, LinkedIn, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jotajota0607.github.io/Momentia/">
+  <meta property="og:site_name" content="Momentia LLC">
   <meta property="og:title" content="Momentia LLC | Built to Deliver">
   <meta property="og:description" content="Building Trusted Partnerships Between Brands and Consumers. Professional Texas Retail & Distribution.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/hero-partnership.webp">
+  <meta property="og:image" content="https://jotajota0607.github.io/Momentia/assets/images/og-preview.jpg">
+  <meta property="og:image:secure_url" content="https://jotajota0607.github.io/Momentia/assets/images/og-preview.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Momentia LLC - Texas Retail & Distribution">
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Momentia LLC | Built to Deliver">
+  <meta name="twitter:description" content="Building Trusted Partnerships Between Brands and Consumers. Professional Texas Retail & Distribution.">
+  <meta name="twitter:image" content="https://jotajota0607.github.io/Momentia/assets/images/og-preview.jpg">
 
   <!-- Tipografías de Google con preconnect para evitar bloqueo de renderizado -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -142,9 +162,10 @@
           <p>At Momentia LLC, we seek strategic partnerships with manufacturers, distributors, and brand owners who share our commitment to quality, professionalism, and customer satisfaction.</p>
         </div>
 
-        <!-- Diagrama de Flujo de Distribución Vectorial -->
+        <!-- Diagrama de Flujo de Distribución Responsivo (Desktop y Móvil) -->
         <div class="flow-diagram">
-          <svg viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Distribution flow diagram: Suppliers to Momentia to Retail and Consumers">
+          <!-- Versión Desktop: Diagrama Horizontal -->
+          <svg class="flow-desktop" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Distribution flow diagram: Suppliers to Momentia to Retail and Consumers">
             <g font-family="Archivo, sans-serif" font-weight="700" font-size="15" fill="#011E59">
               <!-- Suppliers node -->
               <rect x="10" y="45" width="190" height="50" rx="4" fill="#ffffff" stroke="#011E59" stroke-width="1.5"/>
@@ -168,6 +189,22 @@
               <text x="795" y="76" text-anchor="middle">RETAIL &amp; CONSUMERS</text>
             </g>
           </svg>
+
+          <!-- Versión Móvil: Flujo Vertical Apilado (Cero Barras de Desplazamiento) -->
+          <div class="flow-mobile" aria-label="Distribution flow diagram: Suppliers to Momentia LLC to Retail and Consumers">
+            <div class="flow-step-card step-supplier">SUPPLIERS</div>
+            <div class="flow-arrow-down" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F26A0C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+            <div class="flow-step-card step-momentia">
+              MOMENTIA
+              <span class="step-sub">LLC</span>
+            </div>
+            <div class="flow-arrow-down" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F26A0C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </div>
+            <div class="flow-step-card step-retail">RETAIL &amp; CONSUMERS</div>
+          </div>
         </div>
 
         <div class="offer-grid">

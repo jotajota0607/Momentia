@@ -67,3 +67,9 @@
   border: 2px solid var(--orange);
   background: transparent;
 }
+
+@media (max-width: 600px) {
+  .cred-box {
+    padding: 24px 18px;
+  }
+}

@@ -299,6 +299,18 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 480px) {
+  .feedback-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .feedback-actions .btn-sm {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .btn-sm {
   padding: 10px 20px;
   font-size: 0.86rem;
