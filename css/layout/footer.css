@@ -3,7 +3,8 @@
  */
 
 footer {
-  background: var(--navy-deep);
+  background-color: var(--navy-deep);
+  background-image: var(--bg-noise);
   padding: 56px 0 30px;
   color: var(--slate-muted);
 }

@@ -55,6 +55,9 @@
   color: var(--navy-deep);
   font-weight: 600;
   max-width: 640px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .leadership-quote .quote-attr {

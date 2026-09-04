@@ -126,6 +126,7 @@
   color: var(--orange);
   margin-bottom: 8px;
   display: block;
+  font-variant-numeric: tabular-nums;
 }
 
 .value-cell h4 {

@@ -3,7 +3,8 @@
  */
 
 .contact {
-  background: linear-gradient(155deg, var(--navy-deep), var(--navy));
+  background-color: var(--navy-deep);
+  background-image: var(--bg-noise), linear-gradient(155deg, var(--navy-deep), var(--navy));
   color: var(--white);
 }
 
@@ -22,6 +23,8 @@
   font-size: 2.3rem;
   margin-bottom: 16px;
   line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 .contact-intro p {
