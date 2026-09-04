@@ -23,7 +23,7 @@
   line-height: 1.2;
 }
 
-.about-top p {
+.about-top p:not(.eyebrow) {
   margin-bottom: 16px;
   color: var(--slate-light2);
   font-size: 1.02rem;

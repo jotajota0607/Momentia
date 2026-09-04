@@ -27,7 +27,7 @@
   text-wrap: balance;
 }
 
-.contact-intro p {
+.contact-intro p:not(.eyebrow) {
   color: var(--text-on-dark);
   font-size: 1.05rem;
   line-height: 1.6;

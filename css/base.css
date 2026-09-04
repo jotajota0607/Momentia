@@ -98,18 +98,21 @@ section {
   }
 }
 
-/* Eyebrow de sección */
+/* Eyebrow de sección (sobretítulos de categorización) */
 .eyebrow {
   font-family: var(--font-family-heading);
   font-weight: 700;
   font-size: 0.78rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--orange);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 14px;
+  text-align: left !important;
+  text-justify: auto !important;
+  white-space: normal;
 }
 
 .eyebrow::before {
@@ -119,6 +122,22 @@ section {
   background: var(--orange);
   display: inline-block;
   flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.10em;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  /* En pantallas móviles, alinear párrafos a la izquierda para evitar estiramientos antiestéticos */
+  p,
+  .section-head p {
+    text-align: left !important;
+    text-justify: auto !important;
+  }
 }
 
 /* Cabecera de sección reutilizable */
@@ -132,7 +151,7 @@ section {
   line-height: 1.2;
 }
 
-.section-head p {
+.section-head p:not(.eyebrow) {
   margin-top: 16px;
   color: var(--slate-light2);
   font-size: 1.02rem;

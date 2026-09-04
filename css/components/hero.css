@@ -60,7 +60,7 @@
   color: var(--orange);
 }
 
-.hero p {
+.hero p:not(.eyebrow) {
   margin-top: 24px;
   font-size: 1.08rem;
   color: var(--text-on-dark);
