@@ -159,4 +159,7 @@
   font-size: 0.90rem;
   color: var(--slate-light2);
   line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }

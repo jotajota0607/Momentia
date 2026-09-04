@@ -91,4 +91,7 @@
   color: var(--text-on-dark-dim);
   font-size: 0.88rem;
   line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }

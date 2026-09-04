@@ -6,12 +6,12 @@
   background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 55%, var(--navy-soft) 100%);
   position: relative;
   overflow: hidden;
-  padding: 110px 0 0 0;
+  padding: 110px 0 90px 0;
 }
 
 @media (max-width: 768px) {
   .hero {
-    padding: 60px 0 0 0;
+    padding: 60px 0 60px 0;
   }
 }
 
@@ -63,6 +63,9 @@
   color: var(--text-on-dark);
   max-width: 540px;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .hero-ctas {
@@ -143,9 +146,4 @@
   border-radius: 6px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.40);
   border: 1px solid var(--line-glass);
-}
-
-.hero-bottom-chevron {
-  margin-top: 60px;
-  background: var(--navy-deep);
 }

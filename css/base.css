@@ -135,6 +135,9 @@ section {
   margin-top: 16px;
   color: var(--slate-light2);
   font-size: 1.02rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 /* Divisor con firma visual Chevron de Momentia */
