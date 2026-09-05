@@ -6,6 +6,21 @@
   background: var(--fog);
 }
 
+.compliance .eyebrow {
+  text-align: left;
+  width: fit-content;
+  margin-top: 0;
+  color: var(--slate-light2);
+  font-size: 1.02rem;
+}
+
+.compliance h2 {
+  text-align: left;
+  font-size: 2.1rem;
+  color: var(--navy);
+  letter-spacing: -0.01em;
+}
+
 .compliance .wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
