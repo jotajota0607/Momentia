@@ -91,14 +91,14 @@ Este repositorio contiene el código fuente de nuestra web corporativa, desarrol
 
 ## 🎨 Paleta de Colores Oficial
 
-| Muestra | Tono | Código HEX | Aplicación |
-| :---: | :--- | :---: | :--- |
-| <img src="https://via.placeholder.com/20/011E59/011E59.png" width="20" height="20" /> | **Azul Corporativo** | `#011E59` | Color institucional principal, fondos oscuros, cabeceras y títulos |
-| <img src="https://via.placeholder.com/20/F26A0C/F26A0C.png" width="20" height="20" /> | **Naranja Acento** | `#F26A0C` | Botones de acción, acentos visuales y detalles destacados |
-| <img src="https://via.placeholder.com/20/FFFFFF/FFFFFF.png" width="20" height="20" /> | **Blanco** | `#FFFFFF` | Fondos limpios, tarjetas y texto sobre fondos oscuros |
-| <img src="https://via.placeholder.com/20/EEF1F6/EEF1F6.png" width="20" height="20" /> | **Gris Claro (Fog)**| `#EEF1F6` | Fondos de contraste suave para bloques y secciones |
-| <img src="https://via.placeholder.com/20/3B4658/3B4658.png" width="20" height="20" /> | **Pizarra Oscuro** | `#3B4658` | Color principal de lectura para párrafos y descripciones |
-| <img src="https://via.placeholder.com/20/778498/778498.png" width="20" height="20" /> | **Pizarra Medio** | `#778498` | Textos secundarios, etiquetas y sobretítulos |
+| Muestra | Tono | Código HEX | Variable CSS | Aplicación |
+| :---: | :--- | :---: | :---: | :--- |
+| <img src="assets/images/swatches/navy.svg" width="16" height="16" /> | **Azul Corporativo** | `#011E59` | `--navy` | Color institucional principal, fondos oscuros, cabeceras y títulos |
+| <img src="assets/images/swatches/orange.svg" width="16" height="16" /> | **Naranja Acento** | `#F26A0C` | `--orange` | Botones de acción, acentos visuales y detalles destacados |
+| <img src="assets/images/swatches/white.svg" width="16" height="16" /> | **Blanco** | `#FFFFFF` | `--white` | Fondos limpios, tarjetas y texto sobre fondos oscuros |
+| <img src="assets/images/swatches/fog.svg" width="16" height="16" /> | **Gris Claro (Fog)**| `#EEF1F6` | `--fog` | Fondos de contraste suave para bloques y secciones |
+| <img src="assets/images/swatches/slate.svg" width="16" height="16" /> | **Pizarra Oscuro** | `#3B4658` | `--slate` | Color principal de lectura para párrafos y descripciones |
+| <img src="assets/images/swatches/slate-light.svg" width="16" height="16" /> | **Pizarra Medio** | `#778498` | `--slate-light2` | Textos secundarios, etiquetas y sobretítulos |
 
 ---
 
