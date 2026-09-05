@@ -91,14 +91,14 @@ This repository hosts the source code for our official corporate website, built 
 
 ## 🎨 Official Color Palette
 
-| Swatch | Color Name | HEX Code | CSS Variable | Primary Application |
-| :---: | :--- | :---: | :---: | :--- |
-| <img src="assets/images/swatches/navy.svg" width="16" height="16" /> | **Corporate Navy** | `#011E59` | `--navy` | Primary brand color, dark backgrounds, headers, and section titles |
-| <img src="assets/images/swatches/orange.svg" width="16" height="16" /> | **Accent Orange** | `#F26A0C` | `--orange` | Call-to-action buttons (CTAs), highlights, and active accents |
-| <img src="assets/images/swatches/white.svg" width="16" height="16" /> | **Pure White** | `#FFFFFF` | `--white` | Clean background surfaces, card containers, and light typography |
-| <img src="assets/images/swatches/fog.svg" width="16" height="16" /> | **Soft Fog** | `#EEF1F6` | `--fog` | Subtle background contrast for alternating sections and cards |
-| <img src="assets/images/swatches/slate.svg" width="16" height="16" /> | **Dark Slate** | `#3B4658` | `--slate` | Main reading body text and paragraph descriptions |
-| <img src="assets/images/swatches/slate-light.svg" width="16" height="16" /> | **Medium Slate** | `#778498` | `--slate-light2` | Secondary labels, metadata, and section eyebrow headings |
+| Swatch | Color Name | HEX Code | Primary Application |
+| :---: | :--- | :---: | :--- |
+| <img src="assets/images/swatches/navy.svg" width="16" height="16" /> | **Corporate Navy** | `#011E59` | Primary brand color, dark backgrounds, headers, and section titles |
+| <img src="assets/images/swatches/orange.svg" width="16" height="16" /> | **Accent Orange** | `#F26A0C` | Call-to-action buttons (CTAs), highlights, and active accents |
+| <img src="assets/images/swatches/white.svg" width="16" height="16" /> | **Pure White** | `#FFFFFF` | Clean background surfaces, card containers, and light typography |
+| <img src="assets/images/swatches/fog.svg" width="16" height="16" /> | **Soft Fog** | `#EEF1F6` | Subtle background contrast for alternating sections and cards |
+| <img src="assets/images/swatches/slate.svg" width="16" height="16" /> | **Dark Slate** | `#3B4658` | Main reading body text and paragraph descriptions |
+| <img src="assets/images/swatches/slate-light.svg" width="16" height="16" /> | **Medium Slate** | `#778498` | Secondary labels, metadata, and section eyebrow headings |
 
 ---
 
