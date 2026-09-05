@@ -6,110 +6,110 @@
   **Built to Deliver · Texas Retail & Distribution**
 
   <p align="center">
-    Sitio web corporativo enfocado en conectar marcas y fabricantes con el mercado minorista a través de una sólida infraestructura de distribución en Texas.
+    Corporate web platform dedicated to connecting high-quality brands and manufacturers with retail markets through reliable distribution infrastructure across Texas.
   </p>
 
   <p align="center">
     <a href="https://jotajota0607.github.io/Momentia/">
-      <img src="https://img.shields.io/badge/Sitio_Web-En_Vivo-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Sitio Web en Vivo" />
+      <img src="https://img.shields.io/badge/Website-Live-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Website" />
     </a>
-    <img src="https://img.shields.io/badge/Versión-2.0-011E59?style=for-the-badge" alt="Versión 2.0" />
+    <img src="https://img.shields.io/badge/Version-2.0-011E59?style=for-the-badge" alt="Version 2.0" />
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/HTML5-Semántico-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/HTML5-Semantic-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
     <img src="https://img.shields.io/badge/CSS3-Modular-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
     <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Diseño-100%25_Responsivo-00C853?style=flat-square" alt="Responsivo" />
-    <img src="https://img.shields.io/badge/Recursos-WebP_%2B_SVG-informational?style=flat-square" alt="WebP y SVG" />
+    <img src="https://img.shields.io/badge/Design-100%25_Responsive-00C853?style=flat-square" alt="Responsive" />
+    <img src="https://img.shields.io/badge/Assets-WebP_%2B_SVG-informational?style=flat-square" alt="WebP and SVG" />
   </p>
 
-  **[🌐 Visitar Página Web](https://jotajota0607.github.io/Momentia/)**
+  **[🌐 Visit Official Website](https://jotajota0607.github.io/Momentia/)**
 
 </div>
 
 ---
 
-## 📌 Sobre el Proyecto
+## 📌 About the Project
 
-**Momentia LLC** es una compañía de retail y distribución comercial con sede en **Texas, Estados Unidos**. Nuestra misión es construir relaciones comerciales sólidas y duraderas con fabricantes, distribuidores y dueños de marcas, facilitando que productos de alta calidad lleguen a los consumidores finales mediante procesos confiables de compra, gestión de inventario y comercialización multicanal.
+**Momentia LLC** is a retail and wholesale distribution company headquartered in **Texas, United States**. Our mission is to forge strong, long-term business partnerships with manufacturers, distributors, and brand owners, facilitating seamless access to consumer markets through dependable purchasing practices, proactive inventory management, and multi-channel retail operations.
 
-Este repositorio contiene el código fuente de nuestra web corporativa, desarrollada con una estructura limpia, ligera y sin librerías innecesarias, pensada para ofrecer una experiencia de navegación fluida, rápida y accesible desde cualquier dispositivo.
-
----
-
-## ⚡ Aspectos Destacados
-
-- **Carga Rápida y Código Limpio**:
-  Estructura construida en HTML5 semántico con hojas de estilo modulares e imágenes optimizadas en WebP y gráficos SVG, logrando una apertura inmediata de la página.
-
-- **Experiencia Móvil Cuidada**:
-  Diseño adaptado para visualizarse con naturalidad tanto en pantallas de escritorio como en smartphones y tablets, incluyendo diagramas que se ajustan verticalmente para evitar desplazamientos horizontales.
-
-- **Identidad de Marca Vectorial**:
-  Uso de logotipos oficiales en SVG para garantizar nitidez total en cualquier resolución de pantalla, junto a la paleta de colores institucional.
-
-- **Canal de Contacto Directo B2B**:
-  Formulario de alianzas comerciales con validación en tiempo real y asistencia para armar el correo de contacto o copiar el mensaje directamente al portapapeles.
-
-- **Previsualización en Redes y Mensajería**:
-  Configuración de tarjetas sociales (Open Graph y Twitter Cards) con portada personalizada para que los enlaces se compartan de manera atractiva y profesional en WhatsApp, LinkedIn y otras plataformas.
+This repository hosts the source code for our official corporate website, built with a clean, lightweight, and modular architecture designed to deliver a fast, responsive, and accessible experience across all devices.
 
 ---
 
-## 📁 Organización del Repositorio
+## ⚡ Key Highlights
+
+- **Fast Performance & Clean Code**:
+  Built on semantic HTML5 with modular stylesheets and modern WebP imagery paired with scalable SVG graphics, ensuring near-instant page load speeds.
+
+- **Thoughtful Mobile Experience**:
+  Carefully adapted across desktops, tablets, and smartphones, featuring responsive layout transitions and distribution flow diagrams designed to eliminate horizontal scrolling.
+
+- **Vector Brand Identity**:
+  Official SVG vector logos provide crisp scaling at any display resolution, complemented by the company's verified brand palette.
+
+- **Direct B2B Inquiries**:
+  Integrated partnership inquiry form featuring client-side accessibility validation and quick-action tools for email dispatch or clipboard copying.
+
+- **Rich Social Previews**:
+  Configured with dedicated Open Graph and Twitter Card metadata to generate polished link previews when shared across professional networks like LinkedIn, messaging apps, and email.
+
+---
+
+## 📁 Repository Structure
 
 ```text
 ├── assets/
-│   ├── icons/            # Favicons multirresolución
-│   └── images/           # Logotipos SVG, fotografías en WebP y banner social
+│   ├── icons/            # Multi-resolution favicons
+│   └── images/           # Official SVG logos, WebP photos, and social preview banner
 ├── css/
-│   ├── base.css          # Estilos globales, variables de color y tipografía
-│   ├── main.css          # Archivo central de estilos
+│   ├── base.css          # Global reset, typography, and design tokens
+│   ├── main.css          # Master stylesheet importing all modular components
 │   ├── layout/
-│   │   ├── header.css    # Barra de navegación superior y menú responsive
-│   │   └── footer.css    # Pie de página institucional y créditos
+│   │   ├── header.css    # Sticky header with backdrop blur and responsive navigation
+│   │   └── footer.css    # Institutional footer, legal details, and branding
 │   └── components/
-│       ├── hero.css        # Portada principal y mensaje de bienvenida
-│       ├── intro.css       # Resumen de valores y propuesta de crecimiento
-│       ├── about.css       # Quiénes somos, misión y visión
-│       ├── suppliers.css   # Proceso de trabajo con proveedores
-│       ├── why.css         # Razones para colaborar con Momentia
-│       ├── leadership.css  # Mensaje de liderazgo y compromiso
-│       ├── compliance.css  # Credenciales comerciales y registro legal
-│       └── contact.css     # Formulario y canales de contacto
+│       ├── hero.css        # Hero section, value proposition, and primary CTAs
+│       ├── intro.css       # Core values and sustainable growth principles
+│       ├── about.css       # Company overview, mission, and vision
+│       ├── suppliers.css   # Supplier partnerships and distribution flow
+│       ├── why.css         # Operational differentiators and commercial strengths
+│       ├── leadership.css  # Leadership message and executive commitment
+│       ├── compliance.css  # Business credentials, EIN, and compliance standards
+│       └── contact.css     # Partnership intake form and direct communication channels
 ├── js/
-│   ├── main.js           # Inicialización general
+│   ├── main.js           # Core script initialization
 │   └── modules/
-│       ├── navigation.js # Comportamiento del menú móvil
-│       └── form.js       # Validación del formulario y portapapeles
-├── index.html            # Página web principal
-└── README.md             # Documentación informativa del repositorio
+│       ├── navigation.js # Accessible mobile hamburger menu and scroll handling
+│       └── form.js       # Client validation, email structuring, and clipboard utilities
+├── index.html            # Primary semantic HTML5 webpage
+└── README.md             # Repository documentation
 ```
 
 ---
 
-## 🎨 Paleta de Colores Oficial
+## 🎨 Official Color Palette
 
-| Muestra | Tono | Código HEX | Variable CSS | Aplicación |
+| Swatch | Color Name | HEX Code | CSS Variable | Primary Application |
 | :---: | :--- | :---: | :---: | :--- |
-| <img src="assets/images/swatches/navy.svg" width="16" height="16" /> | **Azul Corporativo** | `#011E59` | `--navy` | Color institucional principal, fondos oscuros, cabeceras y títulos |
-| <img src="assets/images/swatches/orange.svg" width="16" height="16" /> | **Naranja Acento** | `#F26A0C` | `--orange` | Botones de acción, acentos visuales y detalles destacados |
-| <img src="assets/images/swatches/white.svg" width="16" height="16" /> | **Blanco** | `#FFFFFF` | `--white` | Fondos limpios, tarjetas y texto sobre fondos oscuros |
-| <img src="assets/images/swatches/fog.svg" width="16" height="16" /> | **Gris Claro (Fog)**| `#EEF1F6` | `--fog` | Fondos de contraste suave para bloques y secciones |
-| <img src="assets/images/swatches/slate.svg" width="16" height="16" /> | **Pizarra Oscuro** | `#3B4658` | `--slate` | Color principal de lectura para párrafos y descripciones |
-| <img src="assets/images/swatches/slate-light.svg" width="16" height="16" /> | **Pizarra Medio** | `#778498` | `--slate-light2` | Textos secundarios, etiquetas y sobretítulos |
+| <img src="assets/images/swatches/navy.svg" width="16" height="16" /> | **Corporate Navy** | `#011E59` | `--navy` | Primary brand color, dark backgrounds, headers, and section titles |
+| <img src="assets/images/swatches/orange.svg" width="16" height="16" /> | **Accent Orange** | `#F26A0C` | `--orange` | Call-to-action buttons (CTAs), highlights, and active accents |
+| <img src="assets/images/swatches/white.svg" width="16" height="16" /> | **Pure White** | `#FFFFFF` | `--white` | Clean background surfaces, card containers, and light typography |
+| <img src="assets/images/swatches/fog.svg" width="16" height="16" /> | **Soft Fog** | `#EEF1F6` | `--fog` | Subtle background contrast for alternating sections and cards |
+| <img src="assets/images/swatches/slate.svg" width="16" height="16" /> | **Dark Slate** | `#3B4658` | `--slate` | Main reading body text and paragraph descriptions |
+| <img src="assets/images/swatches/slate-light.svg" width="16" height="16" /> | **Medium Slate** | `#778498` | `--slate-light2` | Secondary labels, metadata, and section eyebrow headings |
 
 ---
 
-## 🏢 Contacto
+## 🏢 Contact & Inquiries
 
-Si representas a una marca, fabricante o distribuidor y deseas explorar oportunidades de colaboración comercial:
+For partnership inquiries, distribution proposals, or additional business documentation:
 
-- **Empresa**: Momentia LLC  
-- **Ubicación**: Texas, Estados Unidos  
-- **Correo electrónico**: [partnerships@momentiallc.com](mailto:partnerships@momentiallc.com)  
-- **Sitio web**: [jotajota0607.github.io/Momentia](https://jotajota0607.github.io/Momentia/)
+- **Entity**: Momentia LLC  
+- **Location**: Texas, United States  
+- **Email**: [partnerships@momentiallc.com](mailto:partnerships@momentiallc.com)  
+- **Website**: [jotajota0607.github.io/Momentia](https://jotajota0607.github.io/Momentia/)
 
 ---
 
