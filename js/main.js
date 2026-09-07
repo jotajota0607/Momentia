@@ -1,5 +1,5 @@
 /**
- * main.js - Punto de Entrada JavaScript de Momentia LLC
+ * main.js - Punto de Entrada JavaScript de Momentia & Co, LLC
  * Inicializa los módulos de interactividad, navegación y formularios.
  */
 

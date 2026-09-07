@@ -133,3 +133,36 @@
   font-size: 1.02rem;
   color: var(--navy);
 }
+
+/* Declaración de Cierre de About Us */
+.about-closing {
+  margin-top: 48px;
+  background: var(--fog);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--orange);
+  border-radius: 6px;
+  padding: 26px 32px;
+}
+
+@media (max-width: 600px) {
+  .about-closing {
+    margin-top: 32px;
+    padding: 20px 18px;
+  }
+}
+
+.about-closing p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--slate);
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.about-closing strong {
+  color: var(--navy);
+  font-weight: 700;
+}
+

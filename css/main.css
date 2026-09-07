@@ -1,5 +1,5 @@
 /**
- * main.css - Hoja de Estilos Maestra de Momentia LLC
+ * main.css - Hoja de Estilos Maestra de Momentia & Co, LLC
  * Orquesta la arquitectura modular en orden de cascada y especificidad:
  * 1. Tokens y Variables
  * 2. Reset y Reglas Base
@@ -26,3 +26,4 @@
 @import url('components/leadership.css');
 @import url('components/compliance.css');
 @import url('components/contact.css');
+@import url('components/legal.css');

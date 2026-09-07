@@ -9,7 +9,7 @@ export function initSupplierForm() {
   const feedbackBox = document.getElementById('form-feedback');
   if (!form) return;
 
-  // Correo corporativo oficial de Momentia LLC para recepción de alianzas:
+  // Correo corporativo oficial de Momentia & Co, LLC para recepción de alianzas:
   const targetEmail = 'partnerships@momentiallc.com';
 
   form.addEventListener('submit', (e) => {
@@ -71,7 +71,7 @@ export function initSupplierForm() {
     const subject = `Supplier Partnership Inquiry: ${company} (${category})`;
     
     const bodyLines = [
-      'MOMENTIA LLC - SUPPLIER PARTNERSHIP INQUIRY',
+      'MOMENTIA & CO, LLC - SUPPLIER PARTNERSHIP INQUIRY',
       '===========================================',
       '',
       'CONTACT INFORMATION:',
@@ -89,7 +89,7 @@ export function initSupplierForm() {
       message,
       '',
       '===========================================',
-      'Sent via Momentia LLC Supplier Portal'
+      'Sent via Momentia & Co, LLC Supplier Portal'
     ];
 
     const emailBody = bodyLines.join('\n');
