@@ -163,6 +163,22 @@ header.header-scrolled {
   background: var(--navy);
 }
 
+/* Ajuste para pantallas intermedias (laptops y tablets landscape) */
+@media (max-width: 1100px) and (min-width: 861px) {
+  .nav-links {
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 0.84rem;
+  }
+
+  .nav-cta {
+    padding: 8px 14px;
+    font-size: 0.8rem;
+  }
+}
+
 /* Menú Móvil Responsive */
 @media (max-width: 860px) {
   .nav-toggle {

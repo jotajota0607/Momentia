@@ -246,3 +246,74 @@
   background: var(--navy-light);
   transform: translateY(-1px);
 }
+
+/* ==================== RESPONSIVE / MOBILE ==================== */
+@media (max-width: 768px) {
+  .legal-hero {
+    padding: 100px 0 44px;
+  }
+
+  .legal-hero h1 {
+    font-size: 1.85rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .legal-hero-meta {
+    gap: 10px;
+    font-size: 0.84rem;
+    margin-bottom: 24px;
+  }
+
+  /* Los 4 botones de navegación organizados uno debajo de otro en móvil */
+  .legal-nav-pills {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .legal-nav-pill {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 0.94rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .legal-body {
+    padding: 36px 0 60px;
+  }
+
+  .legal-card {
+    padding: 28px 20px;
+    border-radius: 8px;
+  }
+
+  .legal-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .legal-section h2 {
+    font-size: 1.35rem;
+  }
+
+  .legal-contact-box {
+    margin-top: 36px;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .legal-contact-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
