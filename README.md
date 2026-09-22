@@ -58,6 +58,9 @@ This repository hosts the source code for our official corporate website, built 
 - **Rich Social Previews**:
   Configured with dedicated Open Graph and Twitter Card metadata to generate polished link previews when shared across professional networks like LinkedIn, messaging apps, and email.
 
+- **Executive Leadership Directory**:
+  Features the verified leadership team (Co-Founders & Latin America Business Representative) with high-definition, brand-aligned photography and direct organizational roles.
+
 - **Legal Compliance & Privacy Protection**:
   Includes standalone, fully responsive Privacy Policy (`privacy.html`), Terms of Use (`terms.html`), and consolidated Legal Portal (`legal.html`) pages matching the corporate visual identity, detailing commercial compliance, data handling, and governing law.
 
@@ -83,6 +86,7 @@ This repository hosts the source code for our official corporate website, built 
 │       ├── why.css         # Operational differentiators and commercial strengths
 │       ├── leadership.css  # Leadership message and executive commitment
 │       ├── compliance.css  # Business credentials, EIN, and compliance standards
+│       ├── directory.css   # Executive directory and leadership profile grid
 │       ├── contact.css     # Partnership intake form and direct communication channels
 │       └── legal.css       # Privacy policy and terms of use portal stylesheets
 ├── js/
@@ -118,7 +122,7 @@ For partnership inquiries, distribution proposals, or additional business docume
 
 - **Entity**: Momentia & Co, LLC  
 - **Location**: Houston, Texas, USA  
-- **Email**: [partnerships@momentiallc.com](mailto:partnerships@momentiallc.com)  
+- **Email**: [business@momentiaco.com](mailto:business@momentiaco.com)  
 - **Website**: [jotajota0607.github.io/Momentia](https://jotajota0607.github.io/Momentia/)  
 - **Privacy Policy**: [jotajota0607.github.io/Momentia/privacy.html](https://jotajota0607.github.io/Momentia/privacy.html)  
 

@@ -10,7 +10,7 @@ export function initSupplierForm() {
   if (!form) return;
 
   // Correo corporativo oficial de Momentia & Co, LLC para recepción de alianzas:
-  const targetEmail = 'partnerships@momentiallc.com';
+  const targetEmail = 'business@momentiaco.com';
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();

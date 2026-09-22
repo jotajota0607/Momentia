@@ -1,0 +1,110 @@
+/**
+ * directory.css - Directorio Ejecutivo de Liderazgo (Momentia & Co, LLC)
+ */
+
+.directory {
+  background: var(--white);
+  padding: 80px 0;
+  border-top: 1px solid var(--line);
+}
+
+.directory .section-head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 48px;
+}
+
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.directory-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-top: 3.5px solid var(--orange);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.directory-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.directory-image-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--fog);
+  position: relative;
+}
+
+.directory-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.directory-card:hover .directory-image-wrap img {
+  transform: scale(1.025);
+}
+
+.directory-info {
+  padding: 22px 20px 26px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex-grow: 1;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.directory-name {
+  font-family: var(--font-family-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-deep);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.directory-role {
+  font-family: var(--font-family-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--slate);
+  line-height: 1.45;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 900px) {
+  .directory-grid {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .directory {
+    padding: 60px 0;
+  }
+
+  .directory-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    margin: 0 auto;
+    gap: 28px;
+  }
+}
