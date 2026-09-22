@@ -10,8 +10,30 @@
 
 .directory .section-head {
   text-align: center;
-  max-width: 680px;
+  max-width: 1080px;
   margin: 0 auto 48px;
+}
+
+.directory .section-head h2 {
+  text-align: center;
+}
+
+.directory .section-head p {
+  text-align: center;
+  max-width: 1080px;
+  margin: 16px auto 0;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: var(--slate-light2);
+  white-space: nowrap;
+}
+
+@media (max-width: 1120px) {
+  .directory .section-head p {
+    white-space: normal;
+    max-width: 680px;
+    font-size: 0.98rem;
+  }
 }
 
 .directory-grid {
