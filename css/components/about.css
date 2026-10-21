@@ -29,7 +29,7 @@
   font-size: 1.02rem;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 /* Tarjetas de Misión y Visión */
@@ -68,10 +68,10 @@
 .mv-card p {
   font-size: 0.92rem;
   color: var(--slate-light2);
-  line-height: 1.55;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
+  line-height: 1.6;
+  text-align: left;
+  text-wrap: pretty;
+  hyphens: none;
 }
 
 /* Fila de 4 Valores Fundamentales */
@@ -158,7 +158,7 @@
   margin: 0;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .about-closing strong {

@@ -4,7 +4,7 @@
 
 footer {
   background-color: var(--navy-deep);
-  background-image: var(--bg-noise);
+  background-image: var(--bg-corporate-dark);
   padding: 56px 0 30px;
   color: var(--slate-muted);
 }

@@ -6,8 +6,8 @@
 /* Hero Banner Legal */
 .legal-hero {
   background-color: var(--navy-deep);
-  background-image: var(--bg-noise);
-  padding: 130px 0 60px;
+  background-image: var(--bg-corporate-dark);
+  padding: 52px 0 50px;
   color: var(--white);
   border-bottom: 1px solid var(--line-dark);
 }
@@ -65,9 +65,9 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(242, 106, 12, 0.15);
-  color: #ff9b50;
-  border: 1px solid rgba(242, 106, 12, 0.3);
+  background: rgba(var(--orange-rgb), 0.15);
+  color: var(--orange);
+  border: 1px solid rgba(var(--orange-rgb), 0.3);
   padding: 4px 12px;
   border-radius: 999px;
   font-size: 0.8rem;
@@ -88,8 +88,8 @@
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(var(--white-rgb), 0.08);
+  border: 1px solid rgba(var(--white-rgb), 0.16);
   border-radius: 8px;
   color: var(--white);
   text-decoration: none;
@@ -118,7 +118,7 @@
   background: var(--white);
   border: 1px solid var(--line-light);
   border-radius: var(--border-radius-md);
-  box-shadow: 0 4px 24px rgba(1, 30, 89, 0.04);
+  box-shadow: 0 4px 24px rgba(var(--navy-rgb), 0.04);
   padding: 56px;
 }
 
@@ -166,7 +166,7 @@
   margin-bottom: 18px;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .legal-section p:last-child {
@@ -175,7 +175,7 @@
 
 /* Callout Box (Disclaimer / Consent) */
 .legal-callout {
-  background-color: #fcfdfe;
+  background-color: var(--fog);
   border: 1px solid var(--line-light);
   border-left: 4px solid var(--orange);
   border-radius: 0 8px 8px 0;
@@ -233,24 +233,30 @@
   align-items: center;
   gap: 8px;
   background: var(--navy);
-  color: var(--white);
+  color: var(--white) !important;
   padding: 12px 24px;
   border-radius: 6px;
-  font-weight: 600;
+  font-family: var(--font-family-heading);
+  font-weight: 700;
   font-size: 0.9rem;
   text-decoration: none;
-  transition: background var(--transition-fast), transform var(--transition-fast);
+  border: 1.5px solid var(--navy);
+  box-shadow: 0 4px 12px rgba(var(--navy-rgb), 0.15);
+  transition: all var(--transition-fast);
 }
 
 .legal-contact-btn:hover {
-  background: var(--navy-light);
-  transform: translateY(-1px);
+  background: var(--orange) !important;
+  border-color: var(--orange) !important;
+  color: var(--white) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(var(--orange-rgb), 0.30);
 }
 
 /* ==================== RESPONSIVE / MOBILE ==================== */
 @media (max-width: 768px) {
   .legal-hero {
-    padding: 100px 0 44px;
+    padding: 40px 0 36px;
   }
 
   .legal-hero h1 {

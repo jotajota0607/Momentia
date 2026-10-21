@@ -4,7 +4,7 @@
 
 .intro {
   background-color: var(--navy-deep);
-  background-image: var(--bg-noise);
+  background-image: var(--bg-corporate-dark);
   color: var(--text-on-dark);
   padding: 80px 0;
 }

@@ -4,7 +4,7 @@
 
 .contact {
   background-color: var(--navy-deep);
-  background-image: var(--bg-noise), linear-gradient(155deg, var(--navy-deep), var(--navy));
+  background-image: var(--bg-corporate-dark);
   color: var(--white);
 }
 
@@ -56,7 +56,7 @@
 }
 
 .contact-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(var(--white-rgb), 0.05);
   border: 1px solid var(--line-glass);
   border-radius: 6px;
   padding: 24px;
@@ -65,8 +65,8 @@
 
 .contact-card:hover {
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(242, 106, 12, 0.5);
+  background: rgba(var(--white-rgb), 0.08);
+  border-color: rgba(var(--orange-rgb), 0.5);
 }
 
 .contact-card .label {
@@ -92,7 +92,7 @@
 }
 
 .response-notice {
-  background: rgba(1, 30, 89, 0.4);
+  background: rgba(var(--navy-rgb), 0.4);
   border-left: 3px solid var(--orange);
   border-radius: 4px;
   padding: 20px;
@@ -101,7 +101,7 @@
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .response-notice strong {
@@ -113,7 +113,7 @@
 
 /* Columna Derecha: Tarjeta del Formulario de Proveedores */
 .supplier-form-card {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(var(--white-rgb), 0.06);
   border: 1px solid var(--line-glass);
   border-radius: 8px;
   padding: 36px 32px;
@@ -145,7 +145,7 @@
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 /* Cuadrícula interna de campos */
@@ -189,8 +189,8 @@
 .form-group select,
 .form-group textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(var(--white-rgb), 0.08);
+  border: 1px solid rgba(var(--white-rgb), 0.20);
   border-radius: 4px;
   padding: 12px 14px;
   color: var(--white);
@@ -201,7 +201,7 @@
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: rgba(201, 211, 234, 0.45);
+  color: rgba(var(--text-on-dark-rgb), 0.45);
 }
 
 .form-group select option {
@@ -219,20 +219,20 @@
 .form-group select:focus-visible,
 .form-group textarea:focus-visible {
   border-color: var(--orange);
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(var(--white-rgb), 0.12);
   outline: none;
-  box-shadow: 0 0 0 3px rgba(242, 106, 12, 0.25);
+  box-shadow: 0 0 0 3px rgba(var(--orange-rgb), 0.25);
 }
 
 /* Validación y Errores */
 .form-group .is-invalid {
-  border-color: #ff6b6b !important;
-  background: rgba(255, 107, 107, 0.08) !important;
+  border-color: var(--error-border) !important;
+  background: var(--error-bg) !important;
 }
 
 .field-error {
   font-size: 0.78rem;
-  color: #ff9b9b;
+  color: var(--error-text);
   margin-top: 2px;
   display: block;
 }
@@ -258,10 +258,70 @@
   line-height: 1.4;
 }
 
+.form-security-note a {
+  color: var(--orange);
+  text-decoration: underline;
+  transition: color var(--transition-fast);
+}
+
+.form-security-note a:hover {
+  color: var(--orange-dark);
+}
+
+/* Botón de Copiado de Alta Visibilidad y Contraste */
+#copy-inquiry-btn {
+  background: var(--white) !important;
+  color: var(--navy) !important;
+  border: 1.5px solid var(--white) !important;
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all var(--transition-fast);
+}
+
+#copy-inquiry-btn:hover {
+  background: var(--fog) !important;
+  color: var(--navy-deep) !important;
+  border-color: var(--fog) !important;
+  transform: translateY(-1px);
+}
+
+#copy-inquiry-btn.copied {
+  background: var(--success-bg) !important;
+  color: var(--success-text) !important;
+  border-color: var(--success-border) !important;
+}
+
 /* Panel de Confirmación / Feedback */
+.btn-secondary {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  background: var(--navy-light);
+  color: var(--white) !important;
+  border: 1px solid var(--fog);
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: transform var(--transition-fast), background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.btn-secondary:hover {
+  background: var(--navy);
+  border-color: var(--orange);
+  color: var(--white) !important;
+  transform: translateY(-1px);
+}
 #form-feedback {
   margin-top: 24px;
-  background: rgba(1, 30, 89, 0.85);
+  background: rgba(var(--navy-rgb), 0.85);
   border: 1px solid var(--orange);
   border-radius: 6px;
   padding: 24px 20px;

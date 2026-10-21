@@ -158,8 +158,8 @@
 .offer-card p {
   font-size: 0.90rem;
   color: var(--slate-light2);
-  line-height: 1.5;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
+  line-height: 1.55;
+  text-align: left;
+  text-wrap: pretty;
+  hyphens: none;
 }

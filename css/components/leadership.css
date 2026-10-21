@@ -51,13 +51,13 @@
 
 .leadership-quote p.quote-text {
   font-size: 1.25rem;
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--navy-deep);
   font-weight: 600;
   max-width: 640px;
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
+  text-align: left;
+  text-wrap: pretty;
+  hyphens: none;
 }
 
 .leadership-quote .quote-attr {
